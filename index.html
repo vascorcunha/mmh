@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMH</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(100vh + 48px);
+            border: none;
+        }
+
+        .alert {
+            display: none;
+        }
+
+        @media (max-width: 992px) {
+            .alert {
+                display: block;
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background-color: rgba(255, 0, 0, 0.9);
+                color: #FFF;
+                z-index: 100;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: .03em;
+                padding: 2rem;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="alert">
+        Please open me on a desktop :)
+    </div>
+
+
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwpNXBGUIaFbcQgflm5xBpy%2FMMH%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D45-74%26viewport%3D547%252C71%252C0.05%26scaling%3Dscale-down-width%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
+</body>
+
+</html>
